@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Cove</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Outfit:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root {
+        --sunrise-1: #fff1c7;
+        --sunrise-2: #fbd9a9;
+        --sunrise-3: #f7c9b0;
+        --ridge-1: #d8b9a2;
+        --ridge-2: #b79b8d;
+        --ridge-3: #8b766c;
+        --ridge-4: #5f514c;
+      }
+      body {
+        font-family: "Outfit", sans-serif;
+        background: linear-gradient(
+          180deg,
+          var(--sunrise-1) 0%,
+          var(--sunrise-2) 35%,
+          var(--sunrise-3) 60%,
+          #f2c2aa 100%
+        );
+      }
+      h1 {
+        font-family: "Fraunces", serif;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen text-stone-700">
+    <div class="relative min-h-screen overflow-hidden">
+      <main
+        class="relative z-10 flex flex-col items-center px-6 pt-20 text-center md:pt-28"
+      >
+        <h1
+          class="text-4xl font-semibold tracking-tight text-stone-700 md:text-6xl"
+        >
+          Coding Cove
+        </h1>
+        <p
+          class="mt-4 max-w-xl text-sm leading-relaxed text-stone-600 md:text-base"
+        >
+          Comming soon
+        </p>
+      </main>
+
+      <div class="absolute inset-x-0 bottom-0 z-0">
+        <svg
+          viewBox="0 0 1440 320"
+          class="h-[50vh] w-full md:h-[60vh]"
+          preserveAspectRatio="none"
+        >
+          <path
+            fill="var(--ridge-1)"
+            d="M0,200 L80,210 C160,220 320,240 480,220 C640,200 800,140 960,140 C1120,140 1280,210 1360,230 L1440,240 L1440,320 L0,320 Z"
+          />
+          <path
+            fill="var(--ridge-2)"
+            opacity="0.9"
+            d="M0,210 L120,200 C240,190 360,160 520,175 C680,190 820,250 980,245 C1140,240 1280,205 1360,190 L1440,180 L1440,320 L0,320 Z"
+          />
+          <path
+            fill="var(--ridge-3)"
+            opacity="0.95"
+            d="M0,235 L100,225 C200,215 360,200 520,210 C680,220 840,255 1000,260 C1160,265 1280,240 1360,230 L1440,220 L1440,320 L0,320 Z"
+          />
+          <path
+            fill="var(--ridge-4)"
+            d="M0,250 L140,240 C280,230 420,220 620,230 C820,240 1000,270 1180,260 C1360,250 1440,245 1440,245 L1440,320 L0,320 Z"
+          />
+        </svg>
+      </div>
+    </div>
+  </body>
+</html>
